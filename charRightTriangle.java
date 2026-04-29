@@ -8,5 +8,14 @@ public class charRightTriangle {
             }
             System.out.println();
         }
+
+        for(int i = 1; i <= 5; i++){
+            char sai = 'A';
+            for(int j = 5; j>=i; j--){
+                System.out.print(sai+" ");
+                sai++;
+            }
+            System.out.println();
+        }
     }
 }
