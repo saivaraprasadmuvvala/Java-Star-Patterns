@@ -4,7 +4,7 @@ public class oppositeNumberTriangle {
             for(int j = 1; j<=i; j++){
                 System.out.print(j);
             }
-            for(int k =6-i; k >=i; k--){
+            for(int k =7-i; k >=i; k--){
                 System.out.print(" ");
             }
             for(int j = i; j >=1; j--){
